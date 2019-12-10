@@ -17,24 +17,6 @@ router.get("/resumes", (req, res, next) => {
   });
 });
 
-// router.get("/resume/:id", (req, res, next) => {
-//   let id = req.params.id;
-
-//   let resume = Resume.findById(id, (err, resume) => {
-//     if (err) {
-//       res.status(400).json({
-//         message: "There was an error fetching the document",
-//         errorMessage: err.errorMessage
-//       });
-//     } else {
-//       res.status(200).json({
-//         message: "Resume found",
-//         resume: resume
-//       });
-//     }
-//   });
-// });
-
 //posting resumes to database
 router.post("/resumes", (req, res, next) => {
   console.log(req.body);
