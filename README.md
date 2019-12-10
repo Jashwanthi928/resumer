@@ -15,6 +15,9 @@ Create a resumer application.
 2. Click on the add resume and enter all the details in the form.
 3. Now, click view resume to view your resume.
 
+## Link to watch video
+https://youtu.be/6Z19zsqEqu4
+
 ## Images
 
 1. When the application is opened, it shows the list of resumes available in the database
