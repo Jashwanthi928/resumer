@@ -1,5 +1,5 @@
 # Resumer
-This is an resumer application that makes resume by getting details from user.
+This is an resumer application that builds resume by getting details from user.
 
 ## Authors:
 Jashwanthi V
@@ -15,7 +15,7 @@ Create a resumer application.
 2. Click on the add resume and enter all the details in the form.
 3. Now, click view resume to view your resume.
 
-## Link to watch video
+## Watch video
 https://youtu.be/6Z19zsqEqu4
 
 ## Images
