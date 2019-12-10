@@ -17,4 +17,4 @@ Create a resumer application.
 
 ## Images
 
-![viewresume](images/viewresume.PNG)
+![viewresume](Images/viewresume.PNG)
