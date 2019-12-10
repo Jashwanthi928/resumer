@@ -18,3 +18,7 @@ Create a resumer application.
 ## Images
 
 ![viewresume](Images/viewresume.PNG)
+![resumefirstpage](Images/resumefirstpage.PNG)
+![resumesecondpage](Images/resumesecond.PNG)
+![form](Images/formfirst.PNG)
+![form](Images/formsecond.PNG)
