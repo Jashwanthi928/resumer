@@ -1,0 +1,221 @@
+.itemCreation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em !important;
+}
+form {
+  width: 60%;
+  max-width: 900px;
+}
+
+form * {
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.control input,
+.control textarea {
+  background: none;
+  border: 1px solid #999;
+  color: #111;
+  text-indent: 10px;
+  font-size: 1.3rem;
+  margin-bottom: 2em;
+}
+
+form input[type="submit"] {
+  width: 30%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  background-color: #ff7043;
+}
+
+form input[type="submit"]:hover {
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 18px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 18px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 18px -6px rgba(0, 0, 0, 0.75);
+}
+.profilePictureAndNameDivision {
+  margin-top: 1cm;
+}
+.felxibleProfilePictureAndNameDivisionRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.profilePicture {
+  max-width: 5cm;
+  height: auto;
+  border-radius: 50%;
+}
+.verticalLine {
+  border-left: solid 5px #ff7043;
+  height: 2cm;
+  margin-top: 1.5cm;
+}
+.nameAndDesignation {
+  margin-top: 1cm;
+  float: right;
+  font-family: Helvetica;
+}
+.nameAndDesignation h1 {
+  color: #ff7043;
+}
+.contactDetailsBand {
+  margin-top: 1cm;
+  height: 1.5cm;
+  background-color: #777777;
+  color: white;
+  font-size: 0.5cm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contactDetailsBand a {
+  color: white;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+.contact {
+  margin: auto;
+}
+.icon {
+  margin-right: 0.5em;
+}
+.skillsAndRepository {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skills {
+  margin-top: 1cm;
+  font-size: 1.5em;
+}
+.skills h2 {
+  color: #ff7043;
+}
+.githubdetails {
+  font-size: 0.8em;
+  color: rgb(39, 38, 38);
+  font-weight: normal;
+}
+.repository {
+  margin-top: 1cm;
+}
+.repository h3 {
+  color: #ff7043;
+}
+.technologiesUsed {
+  color: #ff7043;
+}
+.projectsAndEducation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1cm;
+}
+.project {
+  margin-top: 1cm;
+}
+.project h2 {
+  color: #ff7043;
+}
+.projectstitle {
+  color: #ff7043;
+}
+.educationList {
+  background-color: #ff7043;
+  color: white;
+  padding-right: 5cm;
+  padding-left: 0.5cm;
+}
+.education {
+  margin-top: 1cm;
+}
+.horizontalLine {
+  display: none;
+}
+.viewButton {
+  background-color: #ff7043 !important;
+  outline: none !important;
+  border: none !important;
+}
+.viewButton:hover {
+  color: black !important;
+}
+@media only screen and (max-width: 570px) {
+  .verticalLine {
+    display: none;
+  }
+  .felxibleProfilePictureAndNameDivisionRow {
+    justify-content: flex-end;
+  }
+  .contactDetailsBand {
+    font-size: 0.45cm;
+  }
+  .nameAndDesignation {
+    text-align: center;
+  }
+  .contactDetailsBand {
+    height: 3cm;
+  }
+  .education {
+    padding-left: 0;
+  }
+  .horizontalLine {
+    display: block;
+  }
+}
+.line {
+  border-top: 2px solid black;
+}
+
+.nav-item a {
+  color: #000000 !important;
+}
+
+.nav-item a:hover {
+  color: #ff7043 !important;
+}
+.resumeCardHolders {
+  display: flex;
+  flex-direction: column;
+}
+.resumeCards {
+  margin-top: 1cm !important;
+  margin: auto;
+  width: 50%;
+}
+
+.resumeCardImage {
+  height: 100%;
+  width: auto;
+}
+
+.custom-modal-dialog {
+  max-width: 100% !important;
+  margin: auto;
+}
+.custom-modal-body {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+@media only screen and (max-width: 770px) {
+  .modal {
+    padding-left: 0 !important;
+  }
+  .resumeCards {
+    max-width: 540px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1cm;
+  }
+}
