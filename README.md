@@ -17,8 +17,17 @@ Create a resumer application.
 
 ## Images
 
+1. When the application is opened, it shows the list of resumes available in the database
 ![viewresume](Images/viewresume.PNG)
+
+2. Clicking on the 'View' button opens the resume of the particular person
 ![resumefirstpage](Images/resumefirstpage.PNG)
+
+3. Resume scroll
 ![resumesecondpage](Images/resumesecond.PNG)
+
+4. When the 'Add Resume' button is clicked, it opens the form section
 ![form](Images/formfirst.PNG)
+
+5. Form scroll
 ![form](Images/formsecond.PNG)
