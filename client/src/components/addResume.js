@@ -32,10 +32,10 @@ class AddResume extends Component {
     schoolname10th: null,
     courseduration10th: null,
     percentage10th: null,
-    collegenamemasters: null,
-    coursenamemasters: null,
-    coursedurationmasters: null,
-    percentagemasters: null,
+    collegenameug: null,
+    coursenameug: null,
+    coursedurationug: null,
+    percentageug: null,
     institutionnameextracourse: null,
     coursenameextracourse: null,
     coursedurationextracourse: null,
@@ -75,10 +75,10 @@ class AddResume extends Component {
       schoolname10th: this.state.schoolname10th,
       courseduration10th: this.state.courseduration10th,
       percentage10th: this.state.percentage10th,
-      collegenamemasters: this.state.collegenamemasters,
-      coursenamemasters: this.state.coursenamemasters,
-      coursedurationmasters: this.state.coursedurationmasters,
-      percentagemasters: this.state.percentagemasters,
+      collegenameug: this.state.collegenameug,
+      coursenameug: this.state.coursenameug,
+      coursedurationug: this.state.coursedurationug,
+      percentageug: this.state.percentageug,
       institutionnameextracourse: this.state.institutionnameextracourse,
       coursenameextracourse: this.state.coursenameextracourse,
       coursedurationextracourse: this.state.coursedurationextracourse,
@@ -326,40 +326,40 @@ class AddResume extends Component {
                 />
               </div>
               <div className="control">
-                <label htmlFor="collegenamemasters">
-                  College Name(Masters):{" "}
+                <label htmlFor="collegenameug">
+                  College Name(UG):{" "}
                 </label>
                 <input
                   type="text"
-                  name="collegenamemasters"
+                  name="collegenameug"
                   onChange={this.getInputValues}
                 />
               </div>
               <div className="control">
-                <label htmlFor="coursenamemasters">
-                  Course Name(Masters):{" "}
+                <label htmlFor="coursenameug">
+                  Course Name(UG):{" "}
                 </label>
                 <input
                   type="text"
-                  name="coursenamemasters"
+                  name="coursenameug"
                   onChange={this.getInputValues}
                 />
               </div>
               <div className="control">
-                <label htmlFor="coursedurationmasters">
-                  Course Duration(Masters):{" "}
+                <label htmlFor="coursedurationug">
+                  Course Duration(UG):{" "}
                 </label>
                 <input
                   type="text"
-                  name="coursedurationmasters"
+                  name="coursedurationug"
                   onChange={this.getInputValues}
                 />
               </div>
               <div className="control">
-                <label htmlFor="percentagemasters">Percentage(Masters): </label>
+                <label htmlFor="percentagemasters">Percentage(UG): </label>
                 <input
                   type="text"
-                  name="percentagemasters"
+                  name="percentageug"
                   onChange={this.getInputValues}
                 />
               </div>

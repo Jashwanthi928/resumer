@@ -17,23 +17,23 @@ router.get("/resumes", (req, res, next) => {
   });
 });
 
-// router.get("/resume/:id", (req, res, next) => {
-//   let id = req.params.id;
+router.get("/resume/:id", (req, res, next) => {
+  let id = req.params.id;
 
-//   let resume = Resume.findById(id, (err, resume) => {
-//     if (err) {
-//       res.status(400).json({
-//         message: "There was an error fetching the document",
-//         errorMessage: err.errorMessage
-//       });
-//     } else {
-//       res.status(200).json({
-//         message: "Resume found",
-//         resume: resume
-//       });
-//     }
-//   });
-// });
+  let resume = Resume.findById(id, (err, resume) => {
+    if (err) {
+      res.status(400).json({
+        message: "There was an error fetching the document",
+        errorMessage: err.errorMessage
+      });
+    } else {
+      res.status(200).json({
+        message: "Resume found",
+        resume: resume
+      });
+    }
+  });
+});
 
 //posting resumes to database
 router.post("/resumes", (req, res, next) => {
@@ -67,10 +67,10 @@ router.post("/resumes", (req, res, next) => {
     schoolname10th: req.body["schoolname10th"],
     courseduration10th: req.body["courseduration10th"],
     percentage10th: req.body["percentage10th"],
-    collegenamemasters: req.body["collegenamemasters"],
-    coursenamemasters: req.body["coursenamemasters"],
-    coursedurationmasters: req.body["coursedurationmasters"],
-    percentagemasters: req.body["percentagemasters"],
+    collegenameug: req.body["collegenameug"],
+    coursenameug: req.body["coursenameug"],
+    coursedurationug: req.body["coursedurationug"],
+    percentageug: req.body["percentageug"],
     institutionnameextracourse: req.body["institutionnameextracourse"],
     coursenameextracourse: req.body["coursenameextracourse"],
     coursedurationextracourse: req.body["coursedurationextracourse"],

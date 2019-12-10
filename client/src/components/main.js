@@ -181,12 +181,12 @@ class Main extends Component {
                               </p>
                             </div>
                             <div className="education">
-                              <h4>{resume.collegenamemasters}</h4>
+                              <h4>{resume.collegenameug}</h4>
                               <p>
-                                {resume.coursenamemasters} <br />
-                                {resume.coursedurationmasters}
+                                {resume.coursenameug} <br />
+                                {resume.coursedurationug}
                                 <br />
-                                <b>{resume.percentagemasters}</b>
+                                <b>{resume.percentageug}</b>
                               </p>
                             </div>
                             <div className="education">
