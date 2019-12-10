@@ -1,5 +1,5 @@
-# resumer
-
+# Resumer
+This is an resumer application that makes resume by getting details from user.
 
 ## Authors:
 Jashwanthi V
@@ -14,4 +14,4 @@ Create a resumer application.
 
 ## Images
 
-![Weather](images/weather.PNG)
+![viewresume](images/viewresume.PNG)
